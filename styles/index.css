@@ -1,0 +1,52 @@
+/* Font Config */
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../assets/fonts/ubuntu-regular.woff'),
+        url('../assets/fonts/ubuntu-regular.woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../assets/fonts/ubuntu-medium.woff'),
+        url('../assets/fonts/ubuntu-medium.woff2');
+    font-style: 500;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../assets/fonts/ubuntu-bold.woff'),
+        url('../assets/fonts/ubuntu-bold.woff2');
+    font-style: bold;
+}
+
+body {
+    font-family: 'Ubuntu';
+}
+
+h1, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.home {
+    height: 100vh;
+    background-color: #406a8c;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
